@@ -1,0 +1,42 @@
+*{
+	padding :0;
+	margin :0;
+}
+
+header{
+	background-color: #FFAD03;
+	padding: 20px;
+}
+
+Body{
+	font-family: Arial;
+	font-size: 20px;
+	color: #222222;
+}
+
+h1{
+	color: #222222;
+}
+
+img{
+	width:100%;
+}
+
+main{
+	padding: 20px;
+}
+
+a{
+	color:#FFAD03;
+	text-decoration: none;
+}
+
+nav a{
+	color: #ffffff;
+	margin-right: 20px
+}
+
+nav {
+	background-color: #402B01;
+	padding: 20px;
+}
