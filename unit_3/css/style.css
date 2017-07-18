@@ -1,31 +1,23 @@
 *{
-	padding :0;
-	margin :0;
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
 }
-
+body{
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 20px;
+	color: #222222;
+}
+section {
+	padding:5em 0;
+}
 header{
 	background-color: #FFAD03;
 	padding: 20px;
 }
-
-Body{
-	font-family: Arial;
-	font-size: 20px;
-	color: #222222;
-}
-
 h1{
-	color: #222222;
+	font-size: 3em;
 }
-
-img{
-	width:100%;
-}
-
-main{
-	padding: 20px;
-}
-
 a{
 	color:#FFAD03;
 	text-decoration: none;
@@ -33,10 +25,22 @@ a{
 
 nav a{
 	color: #ffffff;
-	margin-right: 20px
+	margin-right: 20px;
 }
 
 nav {
 	background-color: #402B01;
 	padding: 20px;
+}
+#splash {
+	background:url(../images/Staircase_Fibonacci_Sequence.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #fff;
+	height: 85vh;
+	padding: 11em 0 0 6em;
+}
+#splash div {
+	width: 23em;
 }
