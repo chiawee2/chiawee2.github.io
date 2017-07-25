@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #222222;
+}
+section {
+	padding:5em 0;
+}
+header{
+	padding:5em 0;
+	background-color: #FFAD03;
+	padding: 20px;
+	font-family: 'Cabin', sans-serif;
+}
+h1{
+	font-size: 3em;
+	font-family: 'Cabin', sans-serif;
+}
+h2{
+	font-size: 1em;
+	font-family: 'Cabin', sans-serif;
+}
+h3,h4{
+	font-size: 1em;
+	font-family: 'Cabin',sans-serif;
+	font-style: italic;
+}
+a{
+	color: #402B01;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a{
+	color: #ffffff;
+	margin-right: 20px;
+}
+
+nav {
+	background-color: #402B01;
+	padding: 20px;
+}
+#splash {
+	background:url(../images/Staircase_Fibonacci_Sequence.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #fff;
+	height: 85vh;
+	padding: 8em 0 0 6em;
+}
+#splash div {
+	width: 23em;
+}
+#logo {
+	float: right;
+	padding: 2px;
+	width: 1em;
+	height: 1em;
+}
+#introduction{
+	padding: 2em;
+}
+#approach{
+	padding: 2em;
+}
+#services{
+	padding: 2em;
+}
+#blog{
+	padding: 2em;
+}
+#contact{
+	padding: 2em;
+}
+#about{
+	padding: 2em;
+}
+footer{
+	padding: 2em;
+}
+aside{
+	float: right;
+	padding: 2em;
+}
