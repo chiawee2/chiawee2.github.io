@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #222222;
+}
+section {
+	padding:2em 0;
+}
+article {
+	padding:2em 0;
+}
+header{
+	/*background-color: #FFAD03;*/
+	font-family: 'Cabin', sans-serif;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+ }
+h1{
+	font-size: 3em;
+	font-family: 'Cabin', sans-serif;
+}
+h2{
+	font-size: 1em;
+	font-family: 'Cabin', sans-serif;
+}
+h3,h4{
+	font-size: 1em;
+	font-family: 'Cabin',sans-serif;
+	font-style: italic;
+}
+a{
+	color: #402B01;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a{
+	color: #402B01;
+	/*display: block;*/
+	/*float: left;*/
+	margin: 0 20px;
+	/*padding: 0 20px;*/
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+nav {
+	font-color: #402B01;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+ }
+section{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+article{
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+#splash {
+	background:url(../images/Staircase_Fibonacci_Sequence.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #fff;
+	height: 85vh;
+	padding: 8em 0 0 6em;
+}
+#splash div {
+	width: 23em;
+}
+#logo {
+	float: right;
+	width: 3em;
+	/*padding: 0;
+	margin: 0;*/
+}
+#introduction,#summary,#approach,#paidsocial,#paidsearch,#omnichannel,#consulting {
+	width: 100%;
+}
+#introduction{
+	/*padding: 2em;*/
+}
+#services{
+	/*padding: 2em;*/
+}
+#blog{
+	/*padding: 2em;*/
+}
+#contact{
+	/*padding: 2em;*/
+}
+#about{
+	/*padding: 2em;*/
+}
+footer{
+	/*padding: 2em;*/
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside{
+	float: right;
+	/*padding: 2em;*/
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#introduction {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#questions {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 60%;
+    }
+
+#answers {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 38%;
+    }
