@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 20px;
+	color: #222222;
+}
+h1 {
+	font-size: 1.5em;
+}
+a {
+	color:#FFAD03;
+	text-decoration: none;
+}
+
+nav a {
+	color: #FFAD03;
+	margin: 0 20px;
+}
+nav a:hover {
+	color: #fff;
+}
+nav {
+	background-color: #402B01;
+	padding: 20px;
+}
+#mobile {
+	display: none;
+}
+#splash {
+	background:url(../images/Staircase_Fibonacci_Sequence.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #fff;
+	height: 85vh;
+	padding: 11em 25em 0 3em;
+}
+#splash div {
+	width: 10em;
+}
+#logo {
+	width : 5em;
+	float: right;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#questions {
+	float: left;
+	width: 50%;
+	padding: 1% ;
+	background-color: #000;
+	color: #ccc;
+	height: 40vh;
+}
+#answers {
+	float: left;
+	width: 50%;
+	padding: 1% ;
+	background-color: #ccc;
+	color: #000;
+	height: 40vh;
+}
+ul {
+	padding: 4%;
+}
+img {
+	width: 100%
+}
+#summary {
+	background:url(../images/desktop.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	height: 100vh;
+	color: #ccc;
+	text-align: center;
+	padding: 8em 12em 0 12em;
+	font-size: 1.2em;
+	}
+
+#approach {
+		padding: 0em 0em 0em 2em;
+		background-color: #FFAD03;
+		display: inline-block;	
+	}
+#approach_img{
+		float: right;
+		width: 40%;
+		margin: 0 0 0 1em;
+	}
+#services{
+		padding: 2em;
+		background-color: #000;
+		color: #fff;
+	}
+#paidsocial,
+#paidsearch,
+#omnichannel,
+#consulting	{
+		float: left;
+		width: 50%;
+		display: block;
+	}
+
+#blog {
+		background-color: #ccc;
+		text-align: left;
+		display: block;
+	}
+#about {
+	text-align: center;
+	padding: 2em;
+}
+
+#contact {
+	background-color: #FFAD03;
+	padding: 2em;
+}	
+aside {
+		text-align: center;
+		padding: 2em;
+	}
+footer {
+	background-color: #402B01;
+	padding: 0em 0em 1.2em 2em;
+	color: #ccc;
+}
+
+@media screen and (max-width:755px){
+	nav a{
+		display: none;
+		margin: 1.5em;
+		text-align: center;
+	}
+	#mobile {
+		display: block;
+	}
+
+	nav: hover a {
+		display: block;
+	}	
+
+
+	body {
+	font-size: 15px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+@media screen and (max-width:450px){
+	nav a{
+		display: none;
+		margin: 1.5em;
+		text-align: center;
+	}
+	#mobile {
+		display: block;
+	}
+
+	nav: hover a {
+		display: block;
+	}	
+
+	
+	body {
+	font-size: 14px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+#paidsocial,
+#paidsearch,
+#omnichannel,
+#consulting	
+#questions,
+#answers {
+		float: left;
+		width: 100%;
+		display: block;
+	}
